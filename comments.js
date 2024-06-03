@@ -1,9 +1,10 @@
-// create web server and listen on port 3000
-// to run: node comments.js
-
+// create web server
 var express = require('express');
 var app = express();
-var bodyParser = require('body-parser');
-
-var comments = [
-  {name: 'John', email: ''}]
+// create a route
+app.get('/comments', function(req, res){
+  res.send('This is the comments page');
+});
+// start server
+app.listen(3000);
+console.log('Server is running on http://localhost:3000/');
