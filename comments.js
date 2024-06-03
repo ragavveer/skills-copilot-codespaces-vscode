@@ -1,10 +1,13 @@
-// create web server
-var express = require('express');
-var app = express();
-// create a route
-app.get('/comments', function(req, res){
-  res.send('This is the comments page');
-});
-// start server
-app.listen(3000);
-console.log('Server is running on http://localhost:3000/');
+// create a new comment function
+// Path: comments.js
+// delete a comment function
+// Path: comments.js
+// update a comment function
+// Path: comments.js
+// get all comments function
+// Path: comments.js
+// get a comment by id function
+// Path: comments.js
+// get all comments for a post function
+// Path: comments.js
+// get all comments for a user
